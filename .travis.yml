@@ -1,13 +1,11 @@
 language: python
 python:
   - "3.6"
-jdk:
-  - oraclejdk8
 
 addons:
   apt:
     packages:
-      - oracle-java8-installer
+      - oracle-java9-installer
 
 script:
   - java -version
