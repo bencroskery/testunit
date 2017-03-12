@@ -26,7 +26,11 @@ public class Thing {
     }
 
     public String getName() {
-        return name;
+        String[] s = {
+            name,
+            ""
+        };
+        return String.join("", s);
     }
 
 }
