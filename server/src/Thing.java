@@ -7,10 +7,16 @@ public class Thing {
         this.name = name;
     }
 
+    /**
+     * Get the number
+     */
     public int getNum() {
         return num;
     }
 
+    /**
+     * Increment the number
+     */
     public void incNum() {
         num++;
     }
