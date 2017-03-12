@@ -1,6 +1,6 @@
 public class Thing {
 	private int num;
-    private String num;
+    private String name;
 
     public Thing(String name) {
         this.num = 0;
