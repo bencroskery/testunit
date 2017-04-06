@@ -1,6 +1,17 @@
-language: java
+language: python
+
+dist: trusty
+
+python: 3.6
+
+addons:
+  apt:
+    packages: oracle-java8-installer
+
+before_script: jdk_switcher use oraclejdk8
 
 script:
   - java -version
-
-
+  - python3 --version
+  - ant test
+  - pytest
